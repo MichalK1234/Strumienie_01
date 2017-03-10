@@ -119,7 +119,7 @@ public class CarsList {
 				.collect(Collectors.toList());
 	}
 
-	public void statistics() { 
+	public void statistics() {
 
 		System.out.println("Statystyka pojemnosci min: ");
 		System.out.println(carsList.stream().collect(Collectors.summarizingDouble(Car::getCapacity)).getMin());

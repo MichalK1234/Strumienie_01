@@ -1,11 +1,8 @@
 
-
 import java.util.ArrayList;
 import java.util.List;
 
 public class Car {
-
-	
 
 	private String brand;
 	private double price;
@@ -13,7 +10,6 @@ public class Car {
 	private double mileage;
 	private List<String> equipment;
 
-	
 	public String getBrand() {
 		return brand;
 	}
@@ -73,7 +69,5 @@ public class Car {
 		return "Samochod [brand=" + brand + ", price=" + price + ", capacity=" + capacity + ", mileage=" + mileage
 				+ ", equipment=" + equipment + "]";
 	}
-
-	
 
 }
